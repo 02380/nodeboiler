@@ -1,6 +1,8 @@
+require("./test.css")
+
 const sayHello = () => {
     /*eslint-disable no-console */
-    console.log("Allo! We are all set!");
+    console.log("NODEBUILDER is alive!");
 };
 
 sayHello();

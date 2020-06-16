@@ -1,7 +1,7 @@
 {
   "name": "nodeboiler",
-  "version": "2.0.0",
-  "description": "Standard ES6 Boilerplate configured with babel, webpack and eslint.",
+  "version": "1.0.0",
+  "description": "A slim boilerplate that works.",
   "scripts": {
     "start": "npm-run-all --parallel dev:server lint:watch",
     "dev": "webpack-dev-server --hot --inline",
@@ -20,9 +20,16 @@
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-minify": "^0.5.1",
+    "css-loader": "^3.6.0",
     "eslint": "^7.2.0",
     "eslint-watch": "^7.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
