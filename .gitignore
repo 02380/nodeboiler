@@ -1,3 +1,6 @@
 node_modules
 .DS_Store
+venv
+dist/bundle.css
+dist/bundle.js
 *.log
